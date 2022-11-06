@@ -1,23 +1,4 @@
-img {
-  width:500px;
-}
-img, h1, h2 {
-  animation-iteration-count: infinite;
-}
-
-@keyframes dog {
-  0% {
-    margin-left: 100%;
-    top:100px;
-    width: 100%;
-  }
-  100% {
-    margin-left: 0%;
-    width: 20%;
-  }
-}
-
-.dog-img {
-  animation-duration: 3s;
-  animation-name: dog;
-}
+svg { width: 200px;}
+.fa {font-size: 30px;}
+.text {width: 400px;}
+.fixed {position: fixed; top: 320px; left: 300px;}
